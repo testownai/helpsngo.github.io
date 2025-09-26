@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HELPS Welfare Society | NGO Ludhiana – Donate & Join</title>
+<meta name="description" content="Student-run registered NGO (XXI of 1860). Free education, tree plantation, disaster relief. Donate or volunteer now.">
+<style>
+:root{--p:#2980b9;--s:#f1f2f6;--w:#fff;--t:#333}
+*{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,"Noto Sans",sans-serif}
+html{scroll-behavior:smooth}
+body{color:var(--t);background:var(--s);line-height:1.6}
+a{color:var(--p);text-decoration:none}
+header{position:sticky;top:0;z-index:1000;background:var(--p);color:var(--w)}
+nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:.7rem 1rem}
+nav .brand{font-size:1.3rem;font-weight:700}
+nav ul{display:flex;gap:1rem;list-style:none}
+nav ul li a{color:var(--w);padding:.3rem .5rem;border-radius:4px;transition:background .3s}
+nav ul li a:hover{background:rgba(0,0,0,.15)}
+.btn{background:var(--p);color:var(--w);padding:.6rem 1.2rem;border:none;border-radius:4px;cursor:pointer;transition:background .3s}
+.btn:hover{background:#1c6ea4}
+.hero{background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"%3E%3Crect fill="%23f0f0f0" width="1200" height="600"/%3E%3Cpath fill="%233498db" d="M0 300c100-20 200 20 300 0s200-20 300 0 200 20 300 0 200-20 300 0v300H0z"/%3E%3C/svg%3E') center/cover no-repeat;color:var(--w);text-align:center;padding:6rem 1rem}
+.hero h1{font-size:2.2rem;margin-bottom:1rem}
+.hero p{font-size:1.1rem;margin-bottom:1.8rem}
+.container{max-width:1100px;margin:auto;padding:2rem 1rem}
+.section-title{text-align:center;margin-bottom:2rem;font-size:1.8rem}
+.grid{display:grid;gap:1.5rem}
+.cols-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.cols-3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--w);padding:1.5rem;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.stats{background:var(--p);color:var(--w);text-align:center}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1.5rem}
+.stat h3{font-size:2rem}
+.footer{background:#1a252f;color:var(--w);text-align:center;padding:1.5rem 1rem}
+.social a{display:inline-block;margin:.3rem;font-size:1.3rem}
+/* Chat-bot AJ */
+#ajBtn{position:fixed;bottom:20px;right:20px;z-index:2000;background:var(--p);color:var(--w);border:0;border-radius:50%;width:60px;height:60px;font-size:24px;cursor:pointer}
+#ajBox{display:none;position:fixed;bottom:90px;right:20px;width:320px;max-height:420px;background:var(--w);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.2);flex-direction:column}
+#ajHeader{background:var(--p);color:var(--w);padding:.7rem 1rem;border-radius:8px 8px 0 0;display:flex;justify-content:space-between;align-items:center}
+#ajBody{flex:1;padding:.7rem;overflow-y:auto;font-size:.9rem}
+#ajInput{display:flex;border-top:1px solid #ddd}
+#ajInput input{flex:1;border:0;padding:.6rem;font-size:.9rem}
+#ajInput button{background:var(--p);color:var(--w);border:0;padding:0 .8rem;cursor:pointer}
+@media (max-width:600px){nav ul{width:100%;justify-content:space-between;margin-top:.5rem}.hero h1{font-size:1.7rem}#ajBox{width:90vw;right:5vw;left:5vw}}
+</style>
+</head>
+
+<body>
+<header>
+  <nav>
+    <div class="brand">HELPS Welfare Society</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>HELPS Welfare Society</h1>
+  <p>Health · Education · Liberty · Peace · Service</p>
+  <p>Registered NGO (XXI of 1860) by students of GNDEC Ludhiana</p>
+  <div style="margin-top:1.5rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+    <button class="btn" onclick="openDonate()">💳 Donate Now</button>
+    <button class="btn" onclick="openJoin()">🤝 Join Us</button>
+  </div>
+</section>
+
+<div class="container">
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <div class="grid cols-2">
+      <div>
+        <p>HELPS is a youth organisation created by students of <strong>Guru Nanak Dev Engineering College, Ludhiana</strong>. Our vision is a better India that guarantees <strong>Health, Education, Liberty, Peace & Empowerment</strong> to every citizen and a child-friendly society free from exploitation.</p>
+      </div>
+      <div class="stats">
+        <div class="stats-grid">
+          <div class="stat"><h3>2016</h3><p>Founded</p></div>
+          <div class="stat"><h3>500+</h3><p>Volunteers</p></div>
+          <div class="stat"><h3>50 k+</h3><p>Lives Touched</p></div>
+          <div class="stat"><h3>10 k+</h3><p>Trees Planted</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Our Projects</h2>
+    <div class="grid cols-3">
+      <div class="card"><h4>📚 Project AABHA</h4><p>Free tuition, books, bags, uniforms for slum children.</p></div>
+      <div class="card"><h4>🧥 Vastra Anudan</h4><p>Winter-cloth & blanket distribution across Punjab.</p></div>
+      <div class="card"><h4>🌱 Go-Green Drive</h4><p>Annual 10 000-tree plantation with 3-year maintenance.</p></div>
+      <div class="card"><h4>👩 Project UTKALIT</h4><p>Health-supplement kits & hygiene workshops for women.</p></div>
+      <div class="card"><h4>📢 RTE Rally</h4><p>Door-to-door enrolment of 6-14 yr olds (86th Amendment).</p></div>
+      <div class="card"><h4>⚡ Disaster Relief</h4><p>Material & medical aid within 24 hrs of any calamity.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact / Collaborate</h2>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>📍 Reach Us</h3>
+        <p><strong>Address:</strong><br>Opp. GNDEC, Gill Road, Ludhiana – 141 006, Punjab (India)</p>
+        <p><strong>Phone:</strong> +91 95049 60940 | +91 94729 29856</p>
+        <p><strong>E-mail:</strong> helpsngoteam@gmail.com</p>
+      </div>
+      <div class="card">
+        <h3>🤝 Partner With Us</h3>
+        <ul>
+          <li>Student internship programmes</li>
+          <li>Corporate CSR collaborations</li>
+          <li>Volunteer Saturdays (3 hrs/week)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer style="background:#1a252f;color:white;text-align:center;padding:1.5rem">
+  <p>&copy; 2024 HELPS Welfare Society – Registered under Society Registration Act XXI of 1860</p>
+</footer>
+
+<!-- =====  BUTTON ACTIONS  ===== -->
+<script>
+function openDonate(){
+  // Replace with your real payment gateway or bank QR page
+  window.open("https://rzp.io/l/helpsngo", "_blank");
+}
+function openJoin(){
+  window.open("https://forms.gle/helpsjoin", "_blank"); // <-- Google Form or any link
+}
+</script>
+
+<!-- =====  CHAT-BOT “AJ”  ===== -->
+<button id="ajBtn" title="Chat with AJ" onclick="toggleAJ()">💬</button>
+<div id="ajBox">
+  <div id="ajHeader">AJ - HELPS Assistant <span style="cursor:pointer" onclick="toggleAJ()">✖</span></div>
+  <div id="ajBody"></div>
+  <div id="ajInput"><input id="ajIn" placeholder="Ask me anything about HELPS NGO…"><button onclick="ajSend()">➤</button></div>
+</div>
+
+<script>
+const ajBody = document.getElementById('ajBody');
+const ajIn   = document.getElementById('ajIn');
+let ajOpen = false;
+
+function toggleAJ(){
+  const box = document.getElementById('ajBox');
+  ajOpen = !ajOpen;
+  box.style.display = ajOpen ? 'flex' : 'none';
+  if(ajOpen && ajBody.innerHTML === '') ajWelcome();
+}
+
+function ajWelcome(){
+  ajBody.innerHTML = `<div style="color:#555">AJ:</div> Hi! I’m AJ, HELPS’s digital assistant. Ask me anything about our projects, donations, or how to join.`;
+}
+
+function ajSend(){
+  const q = ajIn.value.trim();
+  if(!q) return;
+  ajBody.innerHTML += `<div style="text-align:right;color:#0288d1"><b>You:</b> ${q}</div>`;
+  ajIn.value = '';
+  ajBody.innerHTML += `<div style="color:#555">AJ:</div> <span id="ajThink">Thinking…</span>`;
+  ajBody.scrollTop = ajBody.scrollHeight;
+
+  // ===== LIVE WEB SEARCH =====
+  fetch(`https://api.bing.microsoft.com/v7.0/search?q=${encodeURIComponent(q + " HELPS Welfare Society NGO Ludhiana")}`,{
+    headers:{"Ocp-Apim-Subscription-Key":"YOUR_BING_KEY"} // ← add your key (free tier)
+  }).then(r=>r.json()).then(d=>{
+    const ans = d.webPages ? d.webPages.value[0].snippet : "Sorry, I couldn't find fresh info.";
+    document.getElementById('ajThink').innerHTML = ans;
+  }).catch(()=>{
+    document.getElementById('ajThink').innerHTML = "I’m offline. Check <a href='https://fb.com/helpsngo' target='_blank'>fb.com/helpsngo</a> or call +91 95049 60940.";
+  });
+  ajBody.scrollTop = ajBody.scrollHeight;
+}
+ajWelcome();
+</script>
+</body>
+</html>
